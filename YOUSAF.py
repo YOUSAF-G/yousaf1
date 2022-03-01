@@ -154,7 +154,7 @@ def log_menu():
     try:
         t_check = open('access_token.txt', 'r')
         menu()
-    except (Keyyousaf1, IOyousaf1):
+    except (KeyError, IOError):
         os.system('clear')
         print logo
         print '\033[1;90m ~~~~ Login menu ~~~~\033[1;94m'
