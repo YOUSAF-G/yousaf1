@@ -243,7 +243,7 @@ def menu():
         r = requests.get('https://graph.facebook.com/me?access_token=' + token)
         q = json.loads(r.text)
         z = q['name']
-    except (Keyyousaf1, IOyousaf1):
+    except (KeyError, IOError):
         print logo
         print ''
         print '\t Account Cheekpoint\x1b[0;97m'
