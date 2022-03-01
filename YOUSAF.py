@@ -84,7 +84,7 @@ def reg():
     except (Keyyousaf1, IOyousaf1):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/YousafXKhan/Mr-yousaf1/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/YOUSAF-G/Mr-yousaf1/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
