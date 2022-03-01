@@ -21,7 +21,7 @@ os.system('termux-setup-storage')
 
 try:
     os.mkdir('/sdcard/ids')
-except OSyousaf1:
+except except OSError:
     pass
 
 bd = random.randint(2e+07, 3e+07)
